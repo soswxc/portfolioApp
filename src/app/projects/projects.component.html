@@ -1,0 +1,11 @@
+<div class="container">
+<h1>Projects</h1>
+    <div class="gallery">
+    <div class="card" *ngFor="let project of data.projects">
+        <img [src]="'assets/images/' + project.image" alt="{{project.title}}">
+        <div class="card-content">
+          <h2 class="card-title">{{project.title}}</h2>
+          <p class="card-description">{{ (project.description.length>90)? (project.description | slice:0:90)+'...':(project.description) }}</p>
+        </div>
+    </div>
+</div>

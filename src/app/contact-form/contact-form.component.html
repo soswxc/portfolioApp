@@ -1,0 +1,16 @@
+<h2>Contact Me</h2>
+<div class="container">
+    <form #contactForm = "ngForm" (ngSubmit)="handleFormSubmit(contactForm)">
+    <label for="name">Name</label>
+    <input ngModel type="text" id="name" name="name" required>
+
+    <label for="email">Email</label>
+    <input ngModel type="email" id="email" name="email" required>
+
+    <label for="message">Message</label>
+    <textarea ngModel id="message" name="message" rows="5" required></textarea>
+
+    <button type="submit">Send Message</button>
+    </form>
+</div>
+

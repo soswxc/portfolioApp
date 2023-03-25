@@ -1,0 +1,46 @@
+{
+  "projects": [
+    {
+      "title": "Social Media Dashboard",
+      "description": "A web application for managing and monitoring multiple social media accounts in one place. Users can track real-time metrics, schedule posts, and track their competitors' performance.",
+      "category": "Social Media",
+      "technologies": ["React", "Node.js", "MongoDB"],
+      "image": "social-media-dashboard.png"
+    },
+    {
+      "title": "E-Commerce Website Redesign",
+      "description": "A redesign of an existing e-commerce website to improve the user experience and increase sales. The new design features a modern, responsive layout, streamlined checkout process, and personalized product recommendations.",
+      "category": "E-Commerce",
+      "technologies": ["Angular", "Node.js", "MySQL"],
+      "image": "ecommerce-redesign.png"
+    },
+    {
+      "title": "Online Portfolio Creator",
+      "description": "A web application that allows users to easily create and customize their own online portfolio website. The platform offers a variety of templates, themes, and design tools to help users showcase their work and skills.",
+      "category": "Personal Branding",
+      "technologies": ["Vue.js", "Firebase"],
+      "image": "portfolio-creator.webp"
+    },
+    {
+      "title": "Recipe Sharing Platform",
+      "description": "A social network for foodies to share and discover new recipes. The platform features a recipe database, user profiles, and a community feed for users to browse and comment on recipes.",
+      "category": "Food & Drink",
+      "technologies": ["Ruby on Rails", "PostgreSQL"],
+      "image": "recipe-sharing.png"
+    },
+    {
+      "title": "Virtual Event Planning Tool",
+      "description": "A web application for planning and hosting virtual events such as conferences, webinars, and workshops. The platform includes features such as ticketing, live streaming, virtual networking, and analytics.",
+      "category": "Events",
+      "technologies": ["React", "Node.js", "AWS"],
+      "image": "virtual-events.jpg"
+    },
+    {
+      "title": "Fitness Tracking App",
+      "description": "A mobile and web application for tracking fitness goals and progress. The app allows users to log their workouts, set goals, and track metrics such as calories burned and distance traveled. It also includes features such as personalized workout plans and social sharing.",
+      "category": "Fitness",
+      "technologies": ["Ionic", "Firebase"],
+      "image": "fitness-tracking.jpg"
+    }
+  ]
+}
