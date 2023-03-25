@@ -1,0 +1,18 @@
+p {
+    padding: 15px;
+    border-bottom: solid;
+    font-size: larger;
+}
+.header{
+    align-items: center;
+    background: #1abc9c;
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+    height: 35rem;
+}
+
+.avatar {
+    max-width: 250px;
+    margin-top: 5rem;
+}
